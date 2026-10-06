@@ -8,22 +8,22 @@ public class Automobile {
 
     //CONSTRUCTOR
     public Automobile(String brand, int model, double engine, FuelType fuelType, CarType carType, int numberOfDoors, int numberOfSeats, double maximumSpeed, Color color, double currentSpeed) {
-    this.brand = brand;
-    this.model = model;
-    this.engine = engine;
-    this.fuelType = fuelType;
-    this.carType = carType;
-    this.numberOfDoors = numberOfDoors;
-    this.numberOfSeats = numberOfSeats;
-    this.maximumSpeed = maximumSpeed;
-    this.color = color;
-    this.currentSpeed = currentSpeed;
+        this.brand = brand;
+        this.model = model;
+        this.engine = engine;
+        this.fuelType = fuelType;
+        this.carType = carType;
+        this.numberOfDoors = numberOfDoors;
+        this.numberOfSeats = numberOfSeats;
+        this.maximumSpeed = maximumSpeed;
+        this.color = color;
+        this.currentSpeed = currentSpeed;
     }
+
     //CONSTRUCTOR VACIO
     public Automobile() {
     }
 
-    
 // ATRIBUTOS
     private String brand;
     private int model;
@@ -118,6 +118,6 @@ public class Automobile {
     }
 
     public void setDisplay() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 }

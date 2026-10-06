@@ -1,5 +1,6 @@
 package ec.edu.espoch.concessionaire;
 
+import ec.edu.espoch.concessionaire.Implementacion.Automobiles;
 import ec.edu.espoch.concessionaire.objects.Automobile;
 import ec.edu.espoch.concessionaire.enumeration.CarType;
 import ec.edu.espoch.concessionaire.enumeration.Color;
@@ -21,7 +22,12 @@ public class Concessionaire {
         carOne.setColor(Color.RED);
         carOne.setCurrentSpeed(23);
             
-        carOne.setDisplay();
+        
+        
+        Automobiles carOnes = new Automobiles();
+        carOnes.display(carOne);
+        
+        
         
         
         /*System.out.println("Velocidad actual de " + carOne.currentSpeed);
