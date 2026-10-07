@@ -2,7 +2,7 @@ package ec.edu.espoch.concessionaire.interfaces;
 
 import ec.edu.espoch.concessionaire.objects.Automobile;
 
-public interface InterfaceAutomobile  {
+public interface InterfaceAutomobile {
 
     public double accelerate(double speed, Automobile carOne);
 

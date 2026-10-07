@@ -4,7 +4,6 @@ import ec.edu.espoch.concessionaire.objects.Automobile;
 import ec.edu.espoch.concessionaire.interfaces.InterfaceAutomobile;
 
 public class Automobiles implements InterfaceAutomobile {
-    
 
     public double accelerate(double speed, Automobile carOne) {
         if (carOne.getCurrentSpeed() + speed > carOne.getMaximumSpeed()) {
